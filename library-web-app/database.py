@@ -11,14 +11,14 @@ def get_db_connection():
     return g.db
 
 
-def close_db_connection():
+def close_db_connection(error=None):
     db = g.pop("db", None)
     if db is not None:
         db.close()
 
 
 def init_db():
-    conn = get_db_connection()
+    conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
     # Users table
@@ -47,8 +47,3 @@ def init_db():
 
     conn.commit()
     conn.close()
-
-
-if __name__ == "__main__":
-    init_db()
-    print("Database initialized successfully")
