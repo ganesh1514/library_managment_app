@@ -31,7 +31,7 @@ A simple library management app built using flask and sqlite database.
 
 ---
 
-## 📥 Cloning the Repository
+## Cloning the Repository
 
 ```bash
 git clone <your-repository-url>
