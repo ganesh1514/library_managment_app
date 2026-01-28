@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.flash.success {
+    color: green;
+}
+
+.flash.danger {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
