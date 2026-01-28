@@ -1,0 +1,4 @@
+*.db
+__pycache__
+/mv
+Assignment__Library_Management_Web_Application-sir.pdf
