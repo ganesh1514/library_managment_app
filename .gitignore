@@ -1,4 +1,5 @@
 *.db
 __pycache__
 /mv
+myvenv
 Assignment__Library_Management_Web_Application-sir.pdf

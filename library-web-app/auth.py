@@ -102,7 +102,7 @@ def register():
             conn.commit()
             flash("Registration successful", "success")
             return redirect(url_for("auth.login"))
-        except:
+        except:  # noqa: E722
             flash("Username already exists", "danger")
         finally:
             pass
